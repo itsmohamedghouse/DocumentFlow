@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container{
+  margin:50px auto;
+  width:500px;
+  box-shadow:0 15px 35px rgba(128, 128, 128, 0.20);
+  padding:2em;
+  background-color:#fff;
+  border-radius:5px;
+}
+
+.Autotextfield{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin:5px auto;
+    box-shadow: 0 0 0 1px Orgba(0,0,0,.5), o 2px 4px 1px Orgba(0,0,0,.18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+} 
+
+.Autotextfield input {
+    width: 100%;
+    border: none;    
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    padding:10px 5px;
+    box-sizing:border-box;
+    outline:none;
+}
+
+.Autotextfield ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top:1px solid grey;
+}
+
+.Autotextfield ul::before {
+  content: "";
+}
+
+.Autotextfield li {
+   padding: 10px 5px 5px;
+}
+
+.Autotextfield li:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.20);
+}
+
+.container button{
+  padding: 5px 10px;
+  margin:10px auto;
+  border-radius: 2pt;
+}

@@ -1,0 +1,19 @@
+GET http://localhost:9000/trade
+
+### GET http://localhost:3000/trade
+
+### 
+# GET http://localhost:9000/trade/5fc9f775c8079ff5c67626c8
+### POST http://localhost:3000/trade Content-Type: application/json
+
+# {
+# "ITC(HS)": 2042300, "Description": "Boneless", "HS(4)": "MEAT OF SHEEP OR GOATS, FRESH, CHILLED OR FROZEN", "HS(5)": "Other meat of sheep, fresh or chilled", "HS(6)": "Other meat of sheep, fresh or chilled", "HS(8)": "Boneless", "Policy": "Free", "Condition": ""
+# }
+
+### DELETE http://localhost:3000/trade/5fc8917d757c86206045aea4
+
+### PATCH http://localhost:3000/trade/5fc88cb7ab856207cc60e32e Content-Type: application/json
+
+# {
+# "ITC(HS)": 2042300, "Description": "Hard Bone", "HS(4)": "MEAT OF SHEEP OR GOATS, FRESH, CHILLED OR FROZEN", "HS(5)": "Other meat of sheep, fresh or chilled", "HS(6)": "Other meat of sheep, fresh or chilled", "HS(8)": "Boneless", "Policy": "Free", "Condition": ""
+# }
